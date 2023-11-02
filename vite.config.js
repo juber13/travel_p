@@ -6,7 +6,7 @@ export default {
   // Other Vite configuration options...
   build: {
     rollupOptions: {
-      input: '/src/main.jsx',
+      input: './src/main.jsx',
     },
     // Explicitly include dependencies that should be pre-bundled
     optimizeDeps: {
