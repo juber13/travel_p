@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "vite",
     "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "deploy" : "gh-pages -d build",
+    "build" : "react-scripts build"
   },
   "dependencies": {
     "aos": "^3.0.0-beta.6",
